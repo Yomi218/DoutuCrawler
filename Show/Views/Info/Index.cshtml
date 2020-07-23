@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Show";
+}
+
+<h2>Show</h2>
+
+
+@foreach (var info in ViewBag.InfoList)
+{
+    <img style="width:40px;height:40px;margin:4px" src="@info.Url" />
+}
